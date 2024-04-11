@@ -8,7 +8,7 @@ printfn $"Loading {__SOURCE_FILE__}..."
 [<JSX.Component>]
 let App() =
     JSX.html $"""
-    <h1>Hello, Solid !</h1>
+    <h1>Hello, Solid !!</h1>
     """
 
 let div = document.getElementById("solid-app-container")
