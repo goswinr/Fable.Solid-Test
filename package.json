@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start"   : "dotnet fable watch --noCache --outDir ./dist --extension .jsx  --run vite"
+  },
+  "devDependencies": {
+    "vite": "5.2.8",
+    "vite-plugin-solid": "^2.10.2"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.16"
+  }
+}
