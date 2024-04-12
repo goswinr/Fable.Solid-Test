@@ -2,7 +2,7 @@
   "scripts": {
 
     "watch-vite": "npx vite",
-    "watch-fable": "dotnet fable watch --outDir ./dist --extension .jsx",
+    "watch-fable": "dotnet fable watch --outDir ./jsx --extension .jsx",
     "start": "npx concurrently \"npm:watch-*\""
   },
   "devDependencies": {
