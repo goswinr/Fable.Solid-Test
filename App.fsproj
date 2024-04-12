@@ -3,7 +3,7 @@
     <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Src\Hello.fs" />
+    <Compile Include="Src/Hello.fs" />
     <Compile Include="Src/App.fs" />
   </ItemGroup>
   <ItemGroup>

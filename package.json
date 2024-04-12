@@ -1,9 +1,6 @@
 {
   "scripts": {
-
-    "watch-vite": "npx vite",
-    "watch-fable": "dotnet fable watch --outDir ./jsx --extension .jsx",
-    "start": "npx concurrently \"npm:watch-*\""
+    "start": "dotnet fable watch --outDir ./fs.jsx --extension .fs.jsx --run vite"
   },
   "devDependencies": {
     "vite": "5.2.8",
