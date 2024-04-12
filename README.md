@@ -2,7 +2,10 @@
 
 A minimal Fable.Solid app using the latest version of Fable , SolidJs, Vite and vite-plugin-solid.
 
-Fable build and recompile to .jsx works, **but** Vite does not pick up the changes and reload the browser.
+Fable build and recompile to .jsx works,
+
+Vite watching only works for components that are not in the main entry file.
+Also the the folder 'dist' is ignored while watching.
 
 Run the following commands to start watching on localhost:
 ```bash
